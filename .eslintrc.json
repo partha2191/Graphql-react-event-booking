@@ -1,0 +1,52 @@
+{
+    "env": {
+      "node": true,
+      // "browser": true,
+      "es6": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "rules": {
+      "indent": [
+        "error",
+        2
+      ],
+      "quotes": [
+        "error",
+        "double"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-process-env": [
+        "off"
+      ],
+      "no-console": [
+        "error"
+      ],
+      "no-duplicate-case": [
+        "error"
+      ],
+      "no-dupe-args": [
+        "error"
+      ],
+      "no-empty": [
+        "error"
+      ],
+      "no-dupe-keys":[
+        "error"
+      ],
+      "no-template-curly-in-string":[
+        "error"
+      ]
+    },
+    "globals": {
+      "process": true
+    },
+    "plugins": ["import"]
+  }
+  
